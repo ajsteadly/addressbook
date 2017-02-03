@@ -43,7 +43,7 @@ public class TaskService {
                 Task task = new Task();
                 task.setFirstName(fnames[r.nextInt(fnames.length)]);
                 task.setLastName(lnames[r.nextInt(fnames.length)]);
-                task.setTask(tasks[i]);
+                task.setTaskName(tasks[i]);
                 task.setStartDate(cal.getTime());
                 task.setExpectedEndDate(new Date(System.currentTimeMillis() + System.currentTimeMillis()));
                 taskService.save(task);

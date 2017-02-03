@@ -77,6 +77,7 @@ public class AddressbookUI extends UI {
         taskList
                 .setContainerDataSource(new BeanItemContainer<>(Task.class));
         taskList.setColumnOrder("firstName", "lastName", "taskName", "startDate", "expectedEndDate");
+        taskList.removeColumn("id");
         taskList.setSelectionMode(Grid.SelectionMode.SINGLE);
         taskList.addSelectionListener(
                 e -> taskForm.edit((Task) taskList.getSelectedRow()));

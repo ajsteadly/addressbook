@@ -39,7 +39,15 @@ public class Task implements Serializable, Cloneable {
                 + startDate + ", expectedEndDate=" + expectedEndDate + '}';
     }
 
-    public Long getId() {
+    public String getTaskName() {
+		return taskName;
+	}
+
+	public void setTaskName(String taskName) {
+		this.taskName = taskName;
+	}
+
+	public Long getId() {
     	return id;
     }
     
@@ -61,14 +69,6 @@ public class Task implements Serializable, Cloneable {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
-	}
-
-	public String getTask() {
-		return taskName;
-	}
-
-	public void setTask(String task) {
-		this.taskName = task;
 	}
 
 	public Date getStartDate() {
