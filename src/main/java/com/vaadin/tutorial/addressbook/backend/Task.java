@@ -13,6 +13,7 @@ import java.util.Date;
  */
 
 //practice comment
+//2
 
 // Backend DTO class. This is just a typical Java backend implementation
 // class and nothing Vaadin specific.
