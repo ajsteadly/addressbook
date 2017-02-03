@@ -28,7 +28,7 @@ public class TaskForm extends FormLayout {
     TextField firstName = new TextField("First name");
     TextField lastName = new TextField("Last name");
     TextField taskName = new TextField("Task");
-    TextField startDate = new TextField("Start Date");
+    DateField startDate = new DateField("Start Date");
     DateField expectedEndDate = new DateField("Expected End Date");
 
     Task task;
