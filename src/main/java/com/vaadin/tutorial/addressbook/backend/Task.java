@@ -12,9 +12,6 @@ import java.util.Date;
  * in the database and can also be easily converted to different formats like JSON.
  */
 
-//practice comment
-//4
-
 // Backend DTO class. This is just a typical Java backend implementation
 // class and nothing Vaadin specific.
 public class Task implements Serializable, Cloneable {
