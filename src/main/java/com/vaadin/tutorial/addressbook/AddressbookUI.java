@@ -18,8 +18,6 @@ import com.vaadin.v7.data.util.BeanItemContainer;
 import com.vaadin.v7.ui.Grid;
 import com.vaadin.v7.ui.TextField;
 
-/* Practice change - to be removed */
-
 /* User Interface written in Java.
  *
  * Define the user interface shown on the Vaadin generated web page by extending the UI class.
@@ -29,7 +27,7 @@ import com.vaadin.v7.ui.TextField;
 @Title("ToDoList")
 @Theme("valo")
 @Widgetset("com.vaadin.v7.Vaadin7WidgetSet")
-public class ToDoListUI extends UI {
+public class AddressbookUI extends UI {
 
     /*
      * Hundreds of widgets. Vaadin's user interface components are just Java
@@ -144,7 +142,7 @@ public class ToDoListUI extends UI {
      * application.
      */
     @WebServlet(urlPatterns = "/*")
-    @VaadinServletConfiguration(ui = ToDoListUI.class, productionMode = false)
+    @VaadinServletConfiguration(ui = AddressbookUI.class, productionMode = false)
     public static class MyUIServlet extends VaadinServlet {
     }
 

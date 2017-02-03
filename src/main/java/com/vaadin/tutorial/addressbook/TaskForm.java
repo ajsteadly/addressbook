@@ -109,8 +109,8 @@ public class TaskForm extends FormLayout {
     }
 
     @Override
-    public ToDoListUI getUI() {
-        return (ToDoListUI) super.getUI();
+    public AddressbookUI getUI() {
+        return (AddressbookUI) super.getUI();
     }
 
 }
